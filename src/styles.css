@@ -1,0 +1,28 @@
+/* Portfolio site for fullstack developer Ryan Hunter | ryan@RyanHunter.org | GitHub handle : SystemsVanguard  */
+
+/* remove link underlines  */
+.link_no_underline:link {
+  text-decoration: none;
+}
+.link_no_underline:visited {
+  text-decoration: none;
+}
+.link_no_underline:hover {
+  text-decoration: none;
+}
+
+
+no_web_link {
+  /* x */
+  color: maroon;
+  font-style: italic;
+  padding-right: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom_blue_border {
+    border: 3px solid;
+    border-color: DodgerBlue; /* blue */
+}
+  
+  
