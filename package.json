@@ -1,0 +1,59 @@
+{
+  "name": "bigcatsapp",
+  "private": false,
+  "version": "0.0.0",
+  "description": "A React.js based demo and portfolio web app consuming a backend Big CAts REST API.  Built with React.js, TypeScript, Reach Router v 1.3, Bulma CSS framework, HTML5, FontAwesome 5 icons, Google Fonts, JavaScript, and CSS.  Have fun.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/bigcatsapp.git"
+  },
+  "keywords": [
+    "React.js",
+    "API",
+    "Axios",
+    "Bulma",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "FontAwesome"
+  ],
+  "author": "Ryan Hunter | GitHub handle: SystemsVanguard | Web: www.ryanhunter.org | Location: Toronto ON Canada",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.9.0",
+    "bootstrap-icons": "^1.13.1",
+    "bulma": "^1.0.4",
+    "framer-motion": "^12.12.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "react-swipeable": "^7.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5"
+  }
+}
